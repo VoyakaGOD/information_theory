@@ -1,7 +1,7 @@
 from typing import List, Tuple
 LZ77Token = Tuple[int, int, bytes] # (offset, length, char)
 
-WINDOW_SIZE = 2**10
+WINDOW_SIZE = 2**11-1
 MAX_MATCH_LENGTH = 255
 OFFSET_SIZE = 2 # bytes
 LENGTH_SIZE = 1 # byte

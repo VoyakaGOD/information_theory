@@ -11,3 +11,7 @@ Little repo with experiments in information theory
 3) capacity of discrete channels
 
 4) differential entropy & AWGN channel
+
+5) soft decisions for different constellations
+
+6) Hamming codes
